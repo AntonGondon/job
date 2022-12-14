@@ -1,0 +1,219 @@
+div{
+	display: inline-block;-block;
+}
+.header{
+	width: 1850px;
+	height: 100px;
+	background: Indigo;
+	font-size: 38px;
+    text-align: center;
+    padding: 5px;
+    text-shadow: 1px 0 1px #fff, 
+		0 1px 1px #fff, 
+		-1px 0 1px #fff, 
+		0 -1px 1px #fff;
+}
+.main{
+	background: #7E73FF;
+    margin-top: 10px;
+    font-size: 28px;
+    text-shadow: 1px 0 1px #fff, 
+		0 1px 1px #fff, 
+		-1px 0 1px #fff, 
+		0 -1px 1px #fff;
+    text-align: center;
+    width: 230px;
+    padding: 0 10px;
+    float: left;
+}
+.nav{
+	  width: 210px;
+      height: 350px;
+      font-size: 20px;
+    text-shadow: 1px 0 1px #fff, 
+		0 1px 1px #fff, 
+		-1px 0 1px #fff, 
+		0 -1px 1px #fff;
+}
+.container {
+	position: relative;
+	top: 10px;
+	left: 15px;
+    width: 1195px;
+    margin: 0 auto; 
+}
+#img{
+	width: 400px;
+	height: 400px;
+	margin: 45px 140px;
+   display: block;
+    border: solid 1px ;
+}
+.footer {
+    width: 230px;
+    height: 70px;
+    font-size: 20px;
+    text-shadow: 1px 0 1px #A9A9A9;
+    text-align: center;
+    background: #C0C0C0;
+    color: #A9A9A9;
+    padding: 5px;
+    clear: left;
+    position: absolute;
+    top: 1080px;
+    left: 9px;
+}
+#tet {
+      padding-bottom: 10px;
+      padding-left: 15px;
+      padding-right:10px;
+      padding-top:3px;
+      margin:12px
+}
+.piz{
+    width: 230px;
+    height: 200px;
+    font-size: 20px;
+    text-shadow: 1px 0 1px #000;
+    text-align: center;
+    background: #D9D9D9;
+    color: #000;
+    padding: 5px;
+    clear: left;
+    position: absolute;
+    top: 480px;
+    left: 220px;
+}
+#pizz {
+      padding-bottom: 10px;
+      padding-left: 15px;
+      padding-right:10px;
+      padding-top:3px;
+      margin:12px
+}
+#tew {
+	width: 260px;
+    height: 70px;
+	padding-bottom: 300px;
+    padding-left: 15px;
+    padding-right:10px;
+    padding-top:3px;
+    margin:12px
+}
+#knopca{
+	background: #7E73FF;
+	width: 205px;
+    height: 50px;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+   .header{
+      width: 90%;
+      height: 70px;
+      background: Indigo;
+      position: absolute;
+      font-size: 38px;
+      text-align: center;
+      padding: 5px;
+
+   }
+   .main{
+      width: 90%;
+      height: 70px;
+      background: #7E73FF;
+      position: absolute;
+      top: 80px;
+      font-size: 25px;
+      padding: 5px;
+   }
+   .lun{
+      display: inline-block;
+      position: absolute;
+      font-size: 25px;
+      padding: 10px;
+      text-align: center;
+      position: relative;
+      left: 2%;
+      top: -25%;
+   }
+   .nav{
+      display:none;
+   }
+   .container {
+    position: relative;
+    top: -70px;
+    left: -100px;
+    width: 270px;
+    margin: 0 auto; 
+}
+   #img{
+      width: 150px;
+      height: 150px;
+      margin: 10px 55px;
+      display: block;
+      border: solid 1px ;
+      position: relative;
+      top: -20px;
+      left: 50px;
+   }
+      .nav{
+      display:none;
+   }
+   #yna {
+      text-align: center;
+      position: relative;
+      right: -215px;
+      top: 40px;
+   }
+   #tew {
+        width: 150px;
+        height: 20px;
+        padding-bottom: 240px;
+        padding-left: -10px;
+        padding-right:10px;
+        padding-top:240px;
+        margin:12px;
+    }
+    .piz{
+        width: 150px;
+        height: 120px;
+        font-size: 20px;
+        text-shadow: 1px 0 1px #000;
+        text-align: center;
+        background: #D9D9D9;
+        color: #000;
+        padding: 5px;
+        clear: left;
+        position: absolute;
+        top: 450px;
+        left: 105px;
+    }
+    #pizz {
+        padding-bottom: 10px;
+        padding-left: 1px;
+        padding-right:25px;
+        padding-top:3px;
+        margin:14px
+    }
+    #knopca{
+        background: #7E73FF;
+        width: 155px;
+        height: 50px;
+        position: relative;
+        top: -10px;
+        left: -10px;
+        margin:5px
+    }
+   .footer {
+    width: 290px;
+    height: 50px;
+    font-size: 20px;
+    text-shadow: 1px 0 1px #A9A9A9;
+    text-align: center;
+    background: #C0C0C0;
+    color: #A9A9A9;
+    padding: 2px;
+    clear: left;
+    position: absolute;
+    top: 590px;
+   }
+}

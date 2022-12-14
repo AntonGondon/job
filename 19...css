@@ -1,0 +1,156 @@
+div{
+	display: inline-block;-block;
+}
+.header{
+	width: 1850px;
+	height: 100px;
+	background: Indigo;
+	font-size: 38px;
+    text-align: center;
+    padding: 5px;
+    text-shadow: 1px 0 1px #fff, 
+		0 1px 1px #fff, 
+		-1px 0 1px #fff, 
+		0 -1px 1px #fff;
+}
+.main{
+	background: #7E73FF;
+    margin-top: 10px;
+    font-size: 28px;
+    text-shadow: 1px 0 1px #fff, 
+		0 1px 1px #fff, 
+		-1px 0 1px #fff, 
+		0 -1px 1px #fff;
+    text-align: center;
+    width: 230px;
+    padding: 0 10px;
+    float: left;
+}
+.nav{
+	  width: 210px;
+      height: 350px;
+      font-size: 20px;
+    text-shadow: 1px 0 1px #fff, 
+		0 1px 1px #fff, 
+		-1px 0 1px #fff, 
+		0 -1px 1px #fff;
+}
+#img{
+	width: 200px;
+	height: 200px;
+	margin: 45px 140px;
+   display: block;
+    border: solid 1px ;
+}
+.container {
+	position: relative;
+	top: 10px;
+	left: 15px;
+    width: 1195px;
+    margin: 0 auto;
+   
+ }
+.footer {
+    width: 230px;
+    height: 70px;
+    font-size: 20px;
+    text-shadow: 1px 0 1px #A9A9A9;
+    text-align: center;
+    background: #C0C0C0;
+    color: #A9A9A9;
+    padding: 5px;
+    clear: left;
+    position: absolute;
+    top: 1080px;
+    left: 9px;
+   }
+   #tet {
+      padding-bottom: 10px;
+      padding-left: 15px;
+      padding-right:10px;
+      padding-top:3px;
+      margin:12px
+   }
+   #yna {
+      text-align: center;
+   }
+   #tx {
+      text-align: center;
+   }
+
+@media (min-width: 320px) and (max-width: 480px) {
+   .header{
+      width: 90%;
+      height: 70px;
+      background: Indigo;
+      position: absolute;
+      font-size: 38px;
+      text-align: center;
+      padding: 5px;
+
+   }
+   .main{
+      width: 90%;
+      height: 70px;
+      background: #7E73FF;
+      position: absolute;
+      top: 80px;
+      font-size: 25px;
+      padding: 5px;
+   }
+   .lun{
+      display: inline-block;
+      position: absolute;
+      font-size: 25px;
+      padding: 10px;
+      text-align: center;
+      position: relative;
+      left: 2%;
+      top: -25%;
+   }
+   .nav{
+      display:none;
+   }
+   .container {
+   position: relative;
+   top: -65px;
+   left: 10px;
+    width: 320px;
+    margin: 0 auto; 
+ }
+   #img{
+      width: 70px;
+      height: 70px;
+      margin: 5px 5px;
+      display: block;
+      border: solid 1px ;
+      position: relative;
+      top: 250px;
+      right: 10%;
+   }
+   #tx {
+      text-align: center;
+      position: relative;
+      right: 20px;
+      top: 240px;
+   }
+   #yna {
+      text-align: center;
+      position: relative;
+      right: 20px;
+      top: 245px;
+   }
+   .footer {
+    width: 290px;
+    height: 50px;
+    font-size: 20px;
+    text-shadow: 1px 0 1px #A9A9A9;
+    text-align: center;
+    background: #C0C0C0;
+    color: #A9A9A9;
+    padding: 2px;
+    clear: left;
+    position: absolute;
+    top: 670px;
+   }
+}
